@@ -1,0 +1,35 @@
+<svg>
+  <rect id="background" />
+  <text id="txtHour" class="clock-text">13</text>
+  <text id="txtMin" class="clock-text">37</text>
+  <text id="txtDate" class="date-text">01 Janvier</text>
+  <text id="txtJour" class="date-text">Samedi</text>
+  <image id="luffy" href="images/jolly_roger_luffy.png" />
+  <image id="newgate" href="images/jolly_roger_newgate.png" />
+  <svg class="stats">
+    <use id="iconHRM" href="#heart-beat" />
+    <text id="txtHRM" class="stat-left" />
+    <use id="stats-cycle" href="#cycleview">
+      <use href="#cycleview-item" class="cycle-item">
+        <image href="images/steps.png" class="image" />
+        <text class="stat-right" />
+      </use>
+      <use href="#cycleview-item" class="cycle-item">
+        <image href="images/calories.png" class="image" />
+        <text class="stat-right" />
+      </use>
+      <use href="#cycleview-item" class="cycle-item">
+        <image href="images/distance.png" class="image" />
+        <text class="stat-right" />
+      </use>
+      <use href="#cycleview-item" class="cycle-item">
+        <image href="images/floors.png" class="image" />
+        <text class="stat-right" />
+      </use>
+      <use href="#cycleview-item" class="cycle-item">
+        <image href="images/active_minutes.png" class="image" />
+        <text class="stat-right" />
+      </use>
+    </use>
+  </svg>
+</svg>

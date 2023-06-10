@@ -1,0 +1,104 @@
+#background {
+  viewport-fill: white;
+}
+
+#txtHour {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-10;
+  fill: #FFFFFF;
+}
+
+#txtMin {
+  font-size: 80;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+60;
+  fill: #FFFFFF;
+}
+
+#txtDate {
+  font-size: 24;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 70;
+  fill: #FFFFFF;
+}
+
+#txtJour {
+  font-size: 32;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 38;
+  fill: #FFFFFF;
+}
+
+.stats {
+  x: 50%-111;
+  y: 75%;
+  width: 222;
+  height: 48;
+}
+
+.stats text {
+  font-family: SevilleSharp;
+  font-size: 30;
+  text-length: 16;
+  fill: #FFFFFF;
+}
+
+#iconHRM {
+  width: 24;
+  height: 24;
+  y: 15;
+  x: 1;
+  fill: #FF214A;
+}
+
+.stat-left {
+  x: 31;
+}
+
+.stat-right {
+  x: 100%;
+  width: 100%;
+  text-anchor: end
+}
+
+#stats-cycle {
+  x: 40%;
+  y: 0;
+  width: 60%;
+  height: 100%;
+}
+
+.cycle-item image {
+  x: 50%;
+  y: 15;
+  fill: #abe74b;
+  width: 24;
+  height: 24;
+}
+
+#luffy {
+  width: 92;
+  height: 80;
+  y: 50%-50;
+  x: 11;
+}
+
+#newgate {
+  width: 80;
+  height: 80;
+  y: 50%-50;
+  x: 100%-90;
+}
