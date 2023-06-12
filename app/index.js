@@ -7,6 +7,7 @@ import * as simpleActivity from "./simple/activity";
 let txtHour = document.getElementById("txtHour");
 let txtMin = document.getElementById("txtMin");
 let txtDate = document.getElementById("txtDate");
+let txtJour = document.getElementById("txtJour");
 let txtHRM = document.getElementById("txtHRM");
 let iconHRM = document.getElementById("iconHRM");
 let imgHRM = iconHRM.getElementById("icon");
@@ -18,6 +19,7 @@ function clockCallback(data) {
   txtHour.text = data.hour;
   txtMin.text = data.min;
   txtDate.text = data.date;
+  txtJour.text = data.jour;
 }
 simpleClock.initialize("minutes", "shortDate", clockCallback);
 

@@ -19,7 +19,7 @@ export function initialize(granularity, dateFormatString, callback) {
 
 function tickHandler(evt) {
   let today = evt.date;
-  let dayName = days[today.getDay()];
+  let dayName = days[today.getDay() - 1];
   let month = util.zeroPad(today.getMonth() + 1);
   let monthName = months[today.getMonth()];
   let monthNameShort = monthsShort[today.getMonth()];
