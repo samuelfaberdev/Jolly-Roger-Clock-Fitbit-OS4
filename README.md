@@ -9,7 +9,7 @@ https://gallery.fitbit.com/details/1026b2bc-b743-4617-aa94-31aa36aaa055?key=4bfb
 ## Demo
 
 <div align="center">
-  <img height="150" src=""  />
+  <img height="150" src="https://github.com/samuelfaberdev/Jolly-Roger-Clock-Fitbit-OS4/blob/main/Screenshot%202023-06-10%20at%2023.34.55.png?raw=true"  />
 </div>
 
 
